@@ -1,0 +1,76 @@
+{
+ "dev": {
+  "first fit, table fixed at booking, buffer 10": {
+   "covers": 99.1,
+   "mean_wait": 2.3,
+   "p90_wait": 4.4,
+   "late15": 0.055,
+   "booked": 37.2
+  },
+  "best fit, table fixed at booking, buffer 10": {
+   "covers": 99.1,
+   "mean_wait": 2.3,
+   "p90_wait": 4.2,
+   "late15": 0.055,
+   "booked": 37.2
+  },
+  "best fit, table chosen at arrival, buffer 10": {
+   "covers": 99.1,
+   "mean_wait": 0.2,
+   "p90_wait": 0.0,
+   "late15": 0.003,
+   "booked": 37.2
+  },
+  "best fit, table chosen at arrival, buffer 0": {
+   "covers": 105.1,
+   "mean_wait": 0.5,
+   "p90_wait": 0.1,
+   "late15": 0.01,
+   "booked": 39
+  },
+  "best fit, table chosen at arrival, buffer 20": {
+   "covers": 93.2,
+   "mean_wait": 0.2,
+   "p90_wait": 0.0,
+   "late15": 0.004,
+   "booked": 34.8
+  }
+ },
+ "held_out": {
+  "first fit, table fixed at booking, buffer 10": {
+   "covers": 102.5,
+   "mean_wait": 5.6,
+   "p90_wait": 8.1,
+   "late15": 0.102,
+   "booked": 39.0
+  },
+  "best fit, table fixed at booking, buffer 10": {
+   "covers": 102.3,
+   "mean_wait": 5.3,
+   "p90_wait": 6.3,
+   "late15": 0.094,
+   "booked": 38.9
+  },
+  "best fit, table chosen at arrival, buffer 10": {
+   "covers": 102.3,
+   "mean_wait": 0.4,
+   "p90_wait": 0.1,
+   "late15": 0.008,
+   "booked": 38.9
+  },
+  "best fit, table chosen at arrival, buffer 0": {
+   "covers": 110.5,
+   "mean_wait": 0.4,
+   "p90_wait": 0.0,
+   "late15": 0.011,
+   "booked": 40.9
+  },
+  "best fit, table chosen at arrival, buffer 20": {
+   "covers": 95.2,
+   "mean_wait": 0.2,
+   "p90_wait": 0.0,
+   "late15": 0.006,
+   "booked": 36.0
+  }
+ }
+}
